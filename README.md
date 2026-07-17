@@ -17,6 +17,7 @@ matches the skill's description.
 
 | Skill | What it helps with |
 | :---- | :----------------- |
+| `teams-sso-spa` | Build/debug a Microsoft Teams personal tab as a Blazor WASM SPA with Teams SSO on Static Web Apps + Azure Functions (framing/CSP, teams-js, Entra registration, token validation, manifest lifecycle) |
 | `azure-easy-auth` | Entra ID auth for Azure App Service (Easy Auth) & Static Web Apps; 403 / client-principal debugging |
 | `dotnet-isolated-functions` | Running & debugging .NET-isolated Azure Functions locally (cold-start double-load, `func start` vs `dotnet run`) |
 | `graph-app-only-email` | Sending mail via Microsoft Graph with app-only `Mail.Send` and local `DefaultAzureCredential` testing |
@@ -32,6 +33,9 @@ CodingSkills/
 │       ├── .claude-plugin/
 │       │   └── plugin.json        # Plugin manifest: "codingskills"
 │       └── skills/
+│           ├── teams-sso-spa/
+│           │   ├── SKILL.md
+│           │   └── reference.md
 │           ├── azure-easy-auth/SKILL.md
 │           ├── dotnet-isolated-functions/SKILL.md
 │           └── graph-app-only-email/SKILL.md
@@ -64,7 +68,7 @@ Copilot / Claude pick a skill automatically based on your prompt and the skill's
 description. You can also invoke one explicitly by name:
 
 ```
-Use the /azure-easy-auth skill to debug my App Service 403.
+Use the /teams-sso-spa skill to debug my Teams tab "refused to connect".
 ```
 
 ## Add a new skill
