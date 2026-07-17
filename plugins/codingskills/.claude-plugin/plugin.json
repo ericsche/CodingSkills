@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "codingskills",
+  "displayName": "ericsche CodingSkills",
+  "version": "0.1.0",
+  "description": "Reusable, battle-tested skills for building and shipping in the Microsoft ecosystem: Azure, .NET, Microsoft 365, and Microsoft Graph.",
+  "author": {
+    "name": "Eric Scherlinger"
+  },
+  "homepage": "https://github.com/ericsche/CodingSkills",
+  "repository": "https://github.com/ericsche/CodingSkills",
+  "license": "MIT",
+  "keywords": ["azure", "dotnet", "microsoft-365", "microsoft-graph", "entra-id", "copilot"]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ericsche-codingskills",
+  "owner": {
+    "name": "Eric Scherlinger"
+  },
+  "description": "Custom skills for GitHub Copilot & Claude Code, distilled from hands-on development in the Microsoft ecosystem (Azure, .NET, Microsoft 365, Microsoft Graph).",
+  "plugins": [
+    {
+      "name": "codingskills",
+      "source": "./plugins/codingskills",
+      "description": "ericsche CodingSkills - reusable, battle-tested skills for building and shipping in the Microsoft ecosystem.",
+      "author": {
+        "name": "Eric Scherlinger"
+      },
+      "keywords": ["azure", "dotnet", "microsoft-365", "microsoft-graph", "entra-id"],
+      "license": "MIT"
+    }
+  ]
+}
