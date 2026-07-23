@@ -20,7 +20,6 @@ matches the skill's description.
 | `teams-sso-spa` | Build/debug a Microsoft Teams personal tab as a Blazor WASM SPA with Teams SSO on Static Web Apps + Azure Functions (framing/CSP, teams-js, Entra registration, token validation, manifest lifecycle) |
 | `azure-easy-auth` | Entra ID auth for Azure App Service (Easy Auth) & Static Web Apps; 403 / client-principal debugging |
 | `dotnet-isolated-functions` | Running & debugging .NET-isolated Azure Functions locally (cold-start double-load, `func start` vs `dotnet run`) |
-| `graph-app-only-email` | Sending mail via Microsoft Graph with app-only `Mail.Send` and local `DefaultAzureCredential` testing |
 | `pre-pr-review` | Two-gate self-review before opening/readying a PR — deterministic Gate-0 lints (dead links, broken `#anchors`, port artifacts) then a read-only sub-agent panel (code-review, security-review, rubber-duck), then triage; bundles two ready-to-run Node lint scripts |
 
 ## Repository structure
@@ -39,7 +38,6 @@ CodingSkills/
 │           │   └── reference.md
 │           ├── azure-easy-auth/SKILL.md
 │           ├── dotnet-isolated-functions/SKILL.md
-│           ├── graph-app-only-email/SKILL.md
 │           └── pre-pr-review/
 │               ├── SKILL.md
 │               ├── reference.md
