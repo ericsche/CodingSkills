@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "codingskills",
   "displayName": "ericsche CodingSkills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Reusable, battle-tested skills for building and shipping in the Microsoft ecosystem: Azure, .NET, Microsoft 365, and Microsoft Graph.",
   "author": {
     "name": "Eric Scherlinger"

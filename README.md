@@ -21,6 +21,7 @@ matches the skill's description.
 | `azure-easy-auth` | Entra ID auth for Azure App Service (Easy Auth) & Static Web Apps; 403 / client-principal debugging |
 | `dotnet-isolated-functions` | Running & debugging .NET-isolated Azure Functions locally (cold-start double-load, `func start` vs `dotnet run`) |
 | `graph-app-only-email` | Sending mail via Microsoft Graph with app-only `Mail.Send` and local `DefaultAzureCredential` testing |
+| `pre-pr-review` | Two-gate self-review before opening/readying a PR — deterministic Gate-0 lints (dead links, broken `#anchors`, port artifacts) then a read-only sub-agent panel (code-review, security-review, rubber-duck), then triage; bundles two ready-to-run Node lint scripts |
 
 ## Repository structure
 
@@ -38,7 +39,11 @@ CodingSkills/
 │           │   └── reference.md
 │           ├── azure-easy-auth/SKILL.md
 │           ├── dotnet-isolated-functions/SKILL.md
-│           └── graph-app-only-email/SKILL.md
+│           ├── graph-app-only-email/SKILL.md
+│           └── pre-pr-review/
+│               ├── SKILL.md
+│               ├── reference.md
+│               └── scripts/          # check-md-links.mjs, check-ported-content.mjs
 ├── LICENSE                        # MIT
 └── README.md
 ```
